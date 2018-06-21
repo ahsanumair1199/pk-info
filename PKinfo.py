@@ -49,7 +49,7 @@ def pkinfo():
 
     while choice != '11':
         menu()
-        choice = input('Enter your choice: (1-11): ')
+        choice = input('Enter your choice: (1-12): ')
 
         if choice == '1':
             domip = input('Enter Domain or IP Address:')
